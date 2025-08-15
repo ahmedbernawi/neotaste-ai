@@ -23,7 +23,7 @@ Submit your email on the homepage.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/YOUR_USERNAME/neotaste-ai.git
+   git clone https://github.com/ahmedbernawi/neotaste-ai.git
    ```
 2. Open the folder in VS Code.
 3. Run with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) or open `index.html` in your browser.
