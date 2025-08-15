@@ -2,6 +2,14 @@
 
 Turn leftovers into 5-star meals with NeoTaste AI. Get personalized recipes, macro targets, and smart grocery lists in seconds.
 
+## 🌐 Live Demo
+
+[View Live Site](https://your-live-url-here.com)
+
+## Screenshot
+
+![NeoTaste AI Screenshot](Screenshot.png)
+
 ## Features
 
 - 🍳 Personalized recipes based on your ingredients

@@ -39,4 +39,26 @@ html,body{margin:0;height:100%;font-family:Inter,system-ui,-apple-system,Segoe U
 
 .footer{border-top:1px solid var(--line);padding:28px 20px;color:var(--muted);text-align:center;background:rgba(255,255,255,.02)}
 
-@media (max-width:900px){.grid{grid-template-columns:1fr}}
+@media (max-width:900px){
+  .grid{grid-template-columns:1fr}
+}
+
+@media (max-width:600px){
+  .hero{padding:56px 8px 32px;}
+  .section{padding:32px 8px;}
+  .nav{padding:10px 8px;}
+  .logo{font-size:1.1rem;}
+  .nav a, .nav .btn{margin:0 4px;font-size:0.95rem;}
+  .waitlist input, .waitlist button{min-width:180px;padding:10px 12px;font-size:1rem;}
+  .badges span{padding:6px 8px;font-size:0.95rem;}
+  .card{padding:12px;}
+  .demo-body{padding:14px;}
+  .footer{padding:18px 8px;font-size:0.95rem;}
+}
+
+@media (max-width:400px){
+  .logo{font-size:0.95rem;}
+  .nav a, .nav .btn{font-size:0.85rem;}
+  .waitlist input, .waitlist button{font-size:0.9rem;}
+  .footer{font-size:0.85rem;}
+}
