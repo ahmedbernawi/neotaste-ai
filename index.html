@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NeoTaste AI – Cook Smarter</title>
+  <meta name="description" content="Turn leftovers into 5-star meals with NeoTaste AI. Personalized recipes, macros, and grocery lists in seconds." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav">
+    <div class="logo">NeoTaste<span>AI</span></div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#demo">Demo</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn" href="#waitlist">Join Waitlist</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="glow"></div>
+    <h1><span class="accent">Cook smarter</span>, not longer.</h1>
+    <p class="subtitle">Drop your ingredients. Get a chef-crafted plan with macros, prep steps, and a smart grocery list — in seconds.</p>
+    <form id="waitlist" class="waitlist" action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+      <input type="hidden" name="_subject" value="NeoTaste AI Waitlist" />
+      <input type="email" name="email" placeholder="you@example.com" required />
+      <button type="submit">Get Early Access</button>
+      <small>100% free. No spam.</small>
+    </form>
+    <div class="badges">
+      <span>🍳 Personalized recipes</span>
+      <span>📊 Macro targets</span>
+      <span>🛒 Smart grocery list</span>
+    </div>
+  </main>
+
+  <section id="features" class="section features">
+    <h2>Why NeoTaste?</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Zero Waste</h3>
+        <p>Upload what you have — we optimize flavor and nutrition.</p>
+      </article>
+      <article class="card">
+        <h3>Chef-Style Steps</h3>
+        <p>Short, visual steps designed for speed and taste.</p>
+      </article>
+      <article class="card">
+        <h3>Nutrition, Done</h3>
+        <p>Auto macros with adjustable goals for cutting or bulking.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="demo" class="section demo">
+    <h2>See the Flow</h2>
+    <div class="demo-frame">
+      <div class="demo-bar">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="demo-body">
+        <p class="type">Onions, lentils, yogurt, olive oil → <strong>NeoTaste:</strong>
+        “Spiced lentil bowls with garlic yogurt & crispy onion chips.”</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section faq">
+    <h2>FAQ</h2>
+    <details>
+      <summary>How will AI be used?</summary>
+      <p>Ingredient parsing, recipe generation, macro estimation, and smart tips. Launching with a limited beta.</p>
+    </details>
+    <details>
+      <summary>Is it free?</summary>
+      <p>Beta is free for early testers. Paid tiers later for power users.</p>
+    </details>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 NeoTaste AI • <a href="mailto:hello@neotaste.example">Contact</a> • <a href="#waitlist">Join Waitlist</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
