@@ -4,7 +4,7 @@ Turn leftovers into 5-star meals with NeoTaste AI. Get personalized recipes, mac
 
 ## 🌐 Live Demo
 
-[View Live Site](https://your-live-url-here.com)
+[View Live Site](https://github.com/ahmedbernawi/neotaste-ai)
 
 ## Screenshot
 
